@@ -25,7 +25,7 @@ export class App extends Component {
   blockEdding = name => {
     let existContact = [];
     this.state.contacts.map(el => {
-      existContact.push(el.name);
+      return existContact.push(el.name);
     });
 
     return existContact.includes(name)
